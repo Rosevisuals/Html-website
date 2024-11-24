@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4d5ffe;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem;
+    padding: 0 2rem;
+}
+
+.content-box {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.content-box h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.content-box ul {
+    padding: 0;
+    list-style: none;
+}
+
+.content-box ul li {
+    margin-bottom: 0.5rem;
+}
+
+.reviews {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    
+}
+
+.reviews h2 {
+    margin-bottom: 2rem;
+}
+
+.review {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto 1rem auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4d5ffe;
+    color: #fff;
+    margin-top: 2rem;
+}
